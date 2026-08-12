@@ -8,12 +8,12 @@ if not exist "%CSC%" (
     exit /b 1
 )
 
-set "TEMPBUILD=%TEMP%\StickyNotesCokeCloudFix-build"
+set "TEMPBUILD=%TEMP%\WindowsDirectRouteFix-build"
 if not exist "%TEMPBUILD%" mkdir "%TEMPBUILD%"
-set "TEMP_OUT=%TEMPBUILD%\StickyNotes-CokeCloud-Fix.exe"
-set "OUT=%~dp0StickyNotes-CokeCloud-Fix.exe"
+set "TEMP_OUT=%TEMPBUILD%\Windows-Direct-Route-Fix.exe"
+set "OUT=%~dp0Windows-Direct-Route-Fix.exe"
 pushd "%TEMPBUILD%"
-"%CSC%" /nologo /target:winexe /platform:x64 /optimize+ /out:"%TEMP_OUT%" /r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll "%~dp0StickyNotesCokeCloudFix.cs"
+"%CSC%" /nologo /target:winexe /platform:x64 /optimize+ /out:"%TEMP_OUT%" /r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll "%~dp0WindowsDirectRouteFix.cs"
 set "EXITCODE=%ERRORLEVEL%"
 popd
 
