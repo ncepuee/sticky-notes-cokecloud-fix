@@ -2,7 +2,7 @@
 
 ## Problem definition
 
-“直连” is not a property of CokeCloud or any other proxy client. It is a routing decision for a request made by a target application:
+“直连” is not a property of a particular proxy client. It is a routing decision for a request made by a target application:
 
 ```text
 target application -> name resolution/connection -> proxy selection -> remote service -> observable evidence

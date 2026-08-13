@@ -1,6 +1,6 @@
 # Windows Direct Route Fix
 
-一个通用的 Windows 桌面应用直连诊断工具。不绑定 CokeCloud、Clash 或任何代理软件，核心是：识别目标应用、配置直连域名、观察日志证据，并提供可回滚的 WinINet 策略修改。
+一个通用的 Windows 桌面应用直连诊断工具。不绑定任何特定代理软件，核心是：识别目标应用、配置直连域名、观察日志证据，并提供可回滚的 WinINet 策略修改。
 
 完整发布说明见 [GitHub发布说明.md](GitHub发布说明.md)。
 
@@ -18,3 +18,5 @@
 当前版本：`0.3.0`。
 
 界面支持中文/English 切换；主按钮为“一键设置便笺同步”，默认只添加目标域名直连例外并重启目标应用，不会直接关闭全局系统代理。
+
+项目地址：[github.com/ncepuee/windows-direct-route-fix](https://github.com/ncepuee/windows-direct-route-fix)
