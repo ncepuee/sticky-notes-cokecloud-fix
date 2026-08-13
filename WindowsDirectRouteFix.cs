@@ -13,8 +13,8 @@ using System.Reflection;
 [assembly: AssemblyTitle("Windows Direct Route Fix")]
 [assembly: AssemblyDescription("Reversible direct-route diagnostics for Windows desktop applications")]
 [assembly: AssemblyProduct("Windows Direct Route Fix")]
-[assembly: AssemblyVersion("0.3.0.0")]
-[assembly: AssemblyFileVersion("0.3.0.0")]
+[assembly: AssemblyVersion("0.3.1.0")]
+[assembly: AssemblyFileVersion("0.3.1.0")]
 
 internal sealed class ProxyState
 {
