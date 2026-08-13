@@ -15,4 +15,6 @@
 
 工具只处理当前用户的 Windows WinINet 代理状态和目标应用诊断日志，不修改代理软件安装文件或目标应用数据库。域名例外是 WinINet 共享设置，不等于严格的进程级分流。回滚文件在 `%LOCALAPPDATA%\WindowsDirectRouteFix\rollback-state.json`，不要提交到 GitHub。
 
-当前版本：`0.2.0`。
+当前版本：`0.3.0`。
+
+界面支持中文/English 切换；主按钮为“一键设置便笺同步”，默认只添加目标域名直连例外并重启目标应用，不会直接关闭全局系统代理。

@@ -37,4 +37,4 @@ Windows-Direct-Route-Fix.exe --check-only-text
 
 ## 当前版本
 
-`0.2.0`：通用目标应用/域名策略原型，保留 PowerShell 回退工具。
+`0.3.0`：增加中文/English 切换，突出一键设置目标应用同步，降低高级全局代理操作的误触风险。

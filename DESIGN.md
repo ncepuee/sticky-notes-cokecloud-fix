@@ -29,6 +29,8 @@ The distinction is deliberate. A normal EXE cannot safely promise strict process
 
 The external interface stays small: diagnose, apply domain policy, apply broad fallback, save/restore rollback, restart target. The implementation can later swap in WFP or a proxy-backend adapter without changing the user-facing policy model.
 
+The primary action is intentionally ordered first: save profile, save rollback, apply the target domain policy, and restart the target. The broad system-proxy fallback remains secondary and explicitly warns about its larger scope.
+
 ## Verification contract
 
 Authentication success is not sync proof. A successful diagnosis should prefer target-specific evidence such as connection-open and content-update events; remote multi-device content still requires a second-device or web check.
